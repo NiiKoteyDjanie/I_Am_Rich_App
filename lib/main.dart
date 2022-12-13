@@ -14,7 +14,7 @@ void main() {
         // ignore: prefer_const_constructors
         body: Center(
           child: const Image(
-            image: NetworkImage('https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg'),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
